@@ -1,0 +1,28 @@
+{
+  "name": "project-backend",
+  "version": "1.0.0",
+  "description": "Projeto Node",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesource-beresolution/projeto-danibel-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wesource-beresolution/projeto-danibel-backend/issues"
+  },
+  "homepage": "https://github.com/wesource-beresolution/projeto-danibel-backend#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "mongoose": "^6.0.2"
+  }
+}
